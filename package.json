@@ -21,6 +21,10 @@
   "type": "commonjs",
   "main": "index.markdown",
   "scripts": {
+    "start:api": "json-server --watch _data/db.json --port 3000",
+    "start": "jekyll serve --watch --livereload",
+    "dev": "concurrently \"yarn run start:api\" \"yarn run start\"",
+    "build": "jekyll build",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
