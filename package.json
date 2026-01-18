@@ -1,0 +1,26 @@
+{
+  "name": "mumbela-digital-labs.github.io",
+  "version": "1.0.0",
+  "description": "Blog site",
+  "keywords": [
+    "blog",
+    "mumbela",
+    "digital",
+    "labs"
+  ],
+  "homepage": "https://github.com/mumbela-digital-labs/mumbela-digital-labs.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/mumbela-digital-labs/mumbela-digital-labs.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mumbela-digital-labs/mumbela-digital-labs.github.io.git"
+  },
+  "license": "ISC",
+  "author": "Mumbela Simonda",
+  "type": "commonjs",
+  "main": "index.markdown",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  }
+}
